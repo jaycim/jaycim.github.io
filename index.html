@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Jaycim" />
+	<meta name="version" content="1.4.1" />
+	<title>Jaycim.github.io</title>
+	<script src="/js/k.js"></script>
+	<script>
+	
+		var konami = function(type) {
+			if (type == 'gamepad') {
+				document.getElementById('primary_span').innerHTML = 'KONAMI<br/>Now that\'s the way to do it!';
+			} else {
+				document.getElementById('primary_span').innerHTML = 'konami';
+			}
+		}
+
+		var gpconnect = function() {
+			alert('welcome gamepad user :D');
+		}
+	</script>
+</head>
+<body>
+	<span id="primary_span">Hello World</span>
+</body>
+</html>
